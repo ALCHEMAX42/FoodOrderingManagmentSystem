@@ -1,0 +1,119 @@
+*{
+	margin:0px;
+	font-family: 'Lato',
+	sans-serif;
+}
+body{
+	background-color: #E23744;
+	
+}
+
+header {
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	position: relative;
+	background-color: #2D2D2D;
+}
+
+header h2 {
+	margin-left: 8%;
+	position: absolute;
+	top: 15%;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-weight: 600;
+	font-size: 30px;
+}
+.logo {
+	filter: invert(100%);
+	width: 50px;
+	height: 50px;
+	margin-left: 30px;
+}
+.dropdown button {
+	position: absolute;
+	top: 0px;
+	right: 35px;
+
+	color: #2D2D2D !important;
+}
+
+.dropdown ul {
+	width: 100px;
+	margin: 0px;
+	padding: 12px;
+	margin-top: 5px;
+	color: #F4F4F2 !important;
+}
+
+.dropdown ul li {
+	width: 100%;
+	height: 30px;
+	color: #F4F4F2 !important;
+
+}
+
+.dropdown ul li a {
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown ul li:hover {
+
+	display: block;
+	color: #F4F4F2 !important;
+}
+
+.dropdown-menu {
+	padding: 6px;
+	border-radius: 15px;
+}
+.card{
+	border:5px solid #2D2D2D;
+	background-color: #F4F4F2 !important;
+	border-radius: 40px;
+	width: 100%;
+	padding: 10px;
+	margin-top: 20px;
+}
+.cart .card{
+	height: 400px;
+}
+
+.btn-success {
+	margin: 7px !important;
+	border-radius: 20px;
+	background-color: #E23744 !important;
+	border-color: #E23744 !important;
+}
+
+.btn-success :hover {
+	background-color: #f09595 !important;
+	border-color: #E23744 !important;
+}
+
+.btn-default {
+	margin: 7px !important;
+	border-radius: 20px;
+	background-color: #E23744 !important;
+	border-color: #E23744 !important;
+	color: #f4f4f2;
+
+}
+
+.btn-secondary {
+	top: 5%;
+	margin: 7px !important;
+	border-radius: 20px;
+	background-color: #f4f4f2 !important;
+	border-color: #E23744 !important;
+	color: #2D2D2D;
+}
+
+.btn-secondary :hover {
+
+	border-color: #E23744 !important;
+	color: #f4f4f2;
+
+}
